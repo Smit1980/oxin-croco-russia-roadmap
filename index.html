@@ -329,8 +329,11 @@
         </div>
 
         <div class="forecast-note reveal">
-          <strong data-i18n="econNoteTitle">Прогноз ориентировочный</strong>
-          <span data-i18n="econNoteCopy">
+          <div class="forecast-note-label">
+            <strong data-i18n="econNoteTitle">Прогноз ориентировочный</strong>
+            <span class="clarification-badge" data-i18n="requiresClarification">Требует уточнения</span>
+          </div>
+          <span class="forecast-note-copy" data-i18n="econNoteCopy">
             Диапазоны основаны на текущей рабочей аналитике проекта. Перед сделкой модель
             нужно пересчитать по SKU, экспортным ценам, Incoterms, пошлинам, НДС, маркировке,
             возвратам и условиям платежа.
@@ -352,7 +355,12 @@
                 <p class="eyebrow" data-econ-category>Scenario</p>
                 <h3 data-econ-title>Market-entry partner</h3>
               </div>
-              <span class="risk-pill" data-econ-risk>Low risk</span>
+              <div class="econ-status">
+                <span class="risk-pill" data-econ-risk>Low risk</span>
+                <span class="clarification-badge clarification-badge-small" data-i18n="requiresClarification">
+                  Требует уточнения
+                </span>
+              </div>
             </div>
 
             <div class="scale-control" aria-label="Pilot scale">
@@ -384,7 +392,12 @@
             </div>
 
             <div class="econ-result">
-              <span data-i18n="econResultLabel">Оценочный коммерческий эффект</span>
+              <div class="econ-result-topline">
+                <span class="econ-result-label" data-i18n="econResultLabel">
+                  Оценочный коммерческий эффект
+                </span>
+                <span class="result-warning" data-i18n="requiresClarification">Требует уточнения</span>
+              </div>
               <strong data-econ-result>0</strong>
               <p data-econ-result-note>
                 Gross margin / fee minus entry budget, before tax and financing cost.
