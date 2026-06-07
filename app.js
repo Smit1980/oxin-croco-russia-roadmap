@@ -1,5 +1,6 @@
 const translations = {
   ru: {
+    navMarketAnalysis: "Рынок",
     navOptions: "Варианты",
     navEconomics: "Экономика",
     navRoadmap: "Карта",
@@ -26,6 +27,42 @@ const translations = {
     introThreeTitle: "У Oxin есть не только бренд",
     introThreeCopy:
       "Производство, OEM/private label и Morello расширяют вход: можно продавать бренд, производственную мощность или отдельную категорию ухода.",
+    marketAnalysisEyebrow: "Market intelligence",
+    marketAnalysisTitle: "Рынок есть, но вход должен быть выборочным",
+    marketAnalysisIntro:
+      "Дополнительный анализ показывает: для Oxin/Croco сильнее не массовый запуск бренда с первого дня, а комбинация B2B, OEM, точечного marketplace-теста и отдельной проверки Morello.",
+    factOneLabel: "Обувь, РФ 2025",
+    factOneValue: "359 млн пар",
+    factOneCopy: "зафиксировано в розничных продажах по ГИС МТ.",
+    factTwoLabel: "Q4 2025",
+    factTwoValue: "85,9 млн пар",
+    factTwoCopy: "продано за квартал; рынок остается объемным.",
+    factThreeLabel: "E-commerce 2025",
+    factThreeValue: "13,6%",
+    factThreeCopy: "доля одежды и обуви в онлайн-продажах РФ.",
+    factFourLabel: "Стоп-фактор",
+    factFourValue: "Маркировка",
+    factFourCopy: "обувь требует “Честный знак” до ввода в оборот.",
+    mapTitle: "Матрица возможностей",
+    mapHint: "Нажмите на точку",
+    axisComplexity: "Сложность входа",
+    axisAttractiveness: "Коммерческая привлекательность",
+    quadrantSelective: "Тестировать осторожно",
+    quadrantDefer: "Отложить",
+    quadrantPriority: "Приоритетный пилот",
+    quadrantNiche: "Нишевые сделки",
+    segmentDemand: "Спрос",
+    segmentAccess: "Доступ к каналу",
+    segmentRisk: "Контроль риска",
+    segmentActionLabel: "Рекомендация",
+    marketConclusionsTitle: "Вывод для встречи",
+    marketConclusionOne:
+      "Обувь как брендовый импорт возможна, но требует лучшей экономики, размерной сетки, маркировки и контроля возвратов.",
+    marketConclusionTwo:
+      "OEM/private label и кожгалантерея дают более короткий B2B-путь, потому что российский клиент покупает не новый бренд, а производственную возможность.",
+    marketConclusionThree:
+      "Маркетплейсы нужны как тест данных: карточки, цена, отзывы, размеры, возвраты, а не как массовая ставка на первом шаге.",
+    sourceLabel: "Источники:",
     optionsEyebrow: "Все модели входа",
     optionsTitle: "От осторожного пилота до полноценного присутствия",
     tagFirst: "Первый шаг",
@@ -162,6 +199,7 @@ const translations = {
     finalCta: "К началу",
   },
   fa: {
+    navMarketAnalysis: "بازار",
     navOptions: "گزینه‌ها",
     navEconomics: "اقتصاد",
     navRoadmap: "نقشه راه",
@@ -188,6 +226,42 @@ const translations = {
     introThreeTitle: "Oxin فقط یک برند نیست",
     introThreeCopy:
       "تولید، OEM/private label و Morello مسیر ورود را گسترش می‌دهد: می‌توان برند، ظرفیت تولید یا دسته مراقبت از چرم را فروخت.",
+    marketAnalysisEyebrow: "هوش بازار",
+    marketAnalysisTitle: "بازار وجود دارد، اما ورود باید انتخابی باشد",
+    marketAnalysisIntro:
+      "تحلیل تکمیلی نشان می‌دهد برای Oxin/Croco شروع گسترده برند از روز اول بهترین گزینه نیست؛ ترکیب B2B، OEM، تست محدود مارکت‌پلیس و بررسی جداگانه Morello مناسب‌تر است.",
+    factOneLabel: "کفش، روسیه ۲۰۲۵",
+    factOneValue: "۳۵۹ میلیون جفت",
+    factOneCopy: "در فروش خرده‌فروشی GIS MT ثبت شده است.",
+    factTwoLabel: "سه‌ماهه چهارم ۲۰۲۵",
+    factTwoValue: "۸۵٫۹ میلیون جفت",
+    factTwoCopy: "در یک فصل فروخته شد؛ بازار همچنان بزرگ است.",
+    factThreeLabel: "E-commerce ۲۰۲۵",
+    factThreeValue: "۱۳٫۶٪",
+    factThreeCopy: "سهم پوشاک و کفش از فروش آنلاین روسیه.",
+    factFourLabel: "عامل توقف",
+    factFourValue: "لیبل‌گذاری",
+    factFourCopy: "کفش پیش از ورود به بازار به Honest Sign نیاز دارد.",
+    mapTitle: "ماتریس فرصت‌ها",
+    mapHint: "روی نقطه کلیک کنید",
+    axisComplexity: "پیچیدگی ورود",
+    axisAttractiveness: "جذابیت تجاری",
+    quadrantSelective: "با احتیاط تست شود",
+    quadrantDefer: "به تعویق بیفتد",
+    quadrantPriority: "پایلوت اولویت‌دار",
+    quadrantNiche: "معاملات نیچ",
+    segmentDemand: "تقاضا",
+    segmentAccess: "دسترسی به کانال",
+    segmentRisk: "کنترل ریسک",
+    segmentActionLabel: "پیشنهاد",
+    marketConclusionsTitle: "نتیجه برای جلسه",
+    marketConclusionOne:
+      "واردات برند کفش ممکن است، اما به اقتصاد بهتر، جدول سایز، لیبل‌گذاری و کنترل مرجوعی نیاز دارد.",
+    marketConclusionTwo:
+      "OEM/private label و کالاهای چرمی مسیر B2B کوتاه‌تری می‌دهند، چون مشتری روسی ظرفیت تولید می‌خرد نه صرفاً یک برند جدید.",
+    marketConclusionThree:
+      "مارکت‌پلیس‌ها باید تست داده باشند: کارت محصول، قیمت، نظر مشتری، سایز و مرجوعی؛ نه شرط بزرگ در گام اول.",
+    sourceLabel: "منابع:",
     optionsEyebrow: "همه مدل‌های ورود",
     optionsTitle: "از پایلوت محتاطانه تا حضور کامل در بازار",
     tagFirst: "گام اول",
@@ -548,11 +622,141 @@ const economicScenarios = [
   },
 ];
 
+const marketSegments = [
+  {
+    id: "oem",
+    title: { ru: "OEM / Private Label", fa: "OEM / برند خصوصی" },
+    label: { ru: "OEM", fa: "OEM" },
+    category: { ru: "Производство для B2B", fa: "تولید برای B2B" },
+    x: 82,
+    y: 54,
+    size: 98,
+    color: "#7b3f1d",
+    demand: 82,
+    access: 78,
+    risk: 68,
+    copy: {
+      ru: "Самый прагматичный вход: российские бренды, сети и сильные селлеры покупают качество, сроки, кастомизацию и цену, а не неизвестный новый бренд.",
+      fa: "عملی‌ترین مسیر ورود: برندها، شبکه‌ها و سلرهای قوی روسی کیفیت، زمان، سفارشی‌سازی و قیمت می‌خرند، نه فقط یک برند ناشناخته.",
+    },
+    action: {
+      ru: "Сделать отдельное OEM-предложение: MOQ, кастомизация, сроки, контроль качества, упаковка и 5-7 образцов.",
+      fa: "پیشنهاد OEM جدا آماده شود: MOQ، سفارشی‌سازی، زمان تولید، کنترل کیفیت، بسته‌بندی و ۵ تا ۷ نمونه.",
+    },
+  },
+  {
+    id: "leather-goods",
+    title: { ru: "Кожгалантерея / B2B-подарки", fa: "کالاهای چرمی / هدایا B2B" },
+    label: { ru: "B2B gifts", fa: "هدایا" },
+    category: { ru: "Быстрый B2B-тест", fa: "تست سریع B2B" },
+    x: 74,
+    y: 38,
+    size: 84,
+    color: "#9b5a2c",
+    demand: 72,
+    access: 74,
+    risk: 72,
+    copy: {
+      ru: "Сумки, ремни, кошельки и наборы легче проверять предзаказами, корпоративными клиентами и подарочными агентствами.",
+      fa: "کیف، کمربند، کیف پول و ست‌ها را می‌توان ساده‌تر با پیش‌سفارش، مشتریان سازمانی و آژانس‌های هدیه تست کرد.",
+    },
+    action: {
+      ru: "Собрать компактную B2B-линейку: 10 SKU, варианты персонализации, сроки и цена под корпоративный заказ.",
+      fa: "یک لاین B2B کوچک بسازید: ۱۰ SKU، گزینه‌های شخصی‌سازی، زمان و قیمت برای سفارش سازمانی.",
+    },
+  },
+  {
+    id: "leather-footwear",
+    title: { ru: "Натуральная кожаная обувь", fa: "کفش چرم طبیعی" },
+    label: { ru: "Leather shoes", fa: "کفش چرم" },
+    category: { ru: "Брендовый импорт", fa: "واردات برند" },
+    x: 66,
+    y: 72,
+    size: 92,
+    color: "#171514",
+    demand: 76,
+    access: 54,
+    risk: 42,
+    copy: {
+      ru: "Рынок большой, но обувь требует точной цены, размерной сетки, маркировки, сертификации, обработки возвратов и сильного контента.",
+      fa: "بازار بزرگ است، اما کفش به قیمت دقیق، جدول سایز، لیبل‌گذاری، گواهی، مدیریت مرجوعی و محتوای قوی نیاز دارد.",
+    },
+    action: {
+      ru: "Не начинать с широкой партии. Выбрать 5-10 сильных моделей и проверить через байеров и образцы.",
+      fa: "با محموله بزرگ شروع نکنید. ۵ تا ۱۰ مدل قوی را انتخاب کرده و از طریق بایرها و نمونه‌ها تست کنید.",
+    },
+  },
+  {
+    id: "marketplaces",
+    title: { ru: "Маркетплейсы", fa: "مارکت‌پلیس‌ها" },
+    label: { ru: "MP test", fa: "MP تست" },
+    category: { ru: "Канал данных", fa: "کانال داده" },
+    x: 76,
+    y: 84,
+    size: 88,
+    color: "#c41421",
+    demand: 86,
+    access: 70,
+    risk: 36,
+    copy: {
+      ru: "Онлайн-канал крупный, но fashion на маркетплейсах быстро теряет маржу из-за рекламы, возвратов, хранения, скидок и ошибок в карточках.",
+      fa: "کانال آنلاین بزرگ است، اما فشن در مارکت‌پلیس به‌سرعت به دلیل تبلیغات، مرجوعی، انبارداری، تخفیف و خطای کارت محصول مارجین از دست می‌دهد.",
+    },
+    action: {
+      ru: "Запускать только как limited test: 10-20 SKU, FBS/партнер, отдельный P&L по каждой карточке.",
+      fa: "فقط به عنوان تست محدود: ۱۰ تا ۲۰ SKU، FBS/شریک، P&L جدا برای هر کارت محصول.",
+    },
+  },
+  {
+    id: "morello",
+    title: { ru: "Morello leather care", fa: "محصولات مراقبت Morello" },
+    label: { ru: "Morello", fa: "Morello" },
+    category: { ru: "Допродажа / спецканал", fa: "فروش مکمل / کانال تخصصی" },
+    x: 58,
+    y: 62,
+    size: 76,
+    color: "#c99a45",
+    demand: 58,
+    access: 62,
+    risk: 52,
+    copy: {
+      ru: "Средства ухода логичны как допродажа к обуви и сумкам, но требуют отдельной проверки составов, упаковки, аэрозолей и логистики.",
+      fa: "محصولات مراقبت به عنوان فروش مکمل کنار کفش و کیف منطقی‌اند، اما ترکیب، بسته‌بندی، آئروسل و لجستیک باید جداگانه بررسی شود.",
+    },
+    action: {
+      ru: "Тестировать через ремонт обуви, химчистки, обувные магазины и узкий marketplace-тест после проверки состава.",
+      fa: "پس از بررسی ترکیب، از طریق تعمیر کفش، خشکشویی، فروشگاه کفش و تست محدود مارکت‌پلیس اجرا شود.",
+    },
+  },
+  {
+    id: "retail",
+    title: { ru: "Брендовая розница", fa: "خرده‌فروشی برند" },
+    label: { ru: "Retail", fa: "Retail" },
+    category: { ru: "Дорогой способ учиться", fa: "روش گران برای یادگیری" },
+    x: 34,
+    y: 90,
+    size: 72,
+    color: "#6b625b",
+    demand: 42,
+    access: 30,
+    risk: 20,
+    copy: {
+      ru: "Магазин требует узнаваемости, ассортимента, размеров, персонала, рекламы и кассового резерва. Для первого шага риск выше пользы.",
+      fa: "فروشگاه به شناخت برند، ассортимент، سایز، پرسنل، تبلیغات و ذخیره نقدی نیاز دارد. برای گام اول ریسک آن از فایده بیشتر است.",
+    },
+    action: {
+      ru: "Отложить до 2-3 успешных партий, понятной матрицы размеров и стабильной маржи.",
+      fa: "تا بعد از ۲ تا ۳ محموله موفق، ماتریس سایز روشن و مارجین پایدار به تعویق بیفتد.",
+    },
+  },
+];
+
 const root = document.documentElement;
 const toggle = document.querySelector("[data-lang-toggle]");
 const storedLanguage = window.localStorage.getItem("siteLanguage");
 let activeLanguage = storedLanguage === "fa" ? "fa" : "ru";
 let activeScenarioId = "market-entry";
+let activeMarketSegmentId = "oem";
 
 function interpolate(min, max, scale) {
   if (scale === 1) return min;
@@ -637,6 +841,46 @@ function renderEconomics() {
   document.querySelector("[data-econ-gate]").textContent = scenario.gate[language];
 }
 
+function renderMarketSegments() {
+  const map = document.querySelector("[data-market-map]");
+  if (!map) return;
+
+  const language = activeLanguage;
+  const segment =
+    marketSegments.find((item) => item.id === activeMarketSegmentId) || marketSegments[0];
+
+  map.querySelectorAll(".market-bubble").forEach((node) => node.remove());
+
+  marketSegments.forEach((item) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = `market-bubble${item.id === segment.id ? " active" : ""}`;
+    button.dataset.segmentId = item.id;
+    button.style.setProperty("--x", item.x);
+    button.style.setProperty("--y", item.y);
+    button.style.setProperty("--size", item.size);
+    button.style.setProperty("--bubble", item.color);
+    button.innerHTML = `<span>${item.label[language]}</span>`;
+    button.addEventListener("click", () => {
+      activeMarketSegmentId = item.id;
+      renderMarketSegments();
+    });
+    button.addEventListener("mouseenter", () => {
+      activeMarketSegmentId = item.id;
+      renderMarketSegments();
+    });
+    map.appendChild(button);
+  });
+
+  document.querySelector("[data-market-segment-category]").textContent = segment.category[language];
+  document.querySelector("[data-market-segment-title]").textContent = segment.title[language];
+  document.querySelector("[data-market-segment-copy]").textContent = segment.copy[language];
+  document.querySelector("[data-market-segment-action]").textContent = segment.action[language];
+  document.querySelector("[data-score-demand]").style.width = `${segment.demand}%`;
+  document.querySelector("[data-score-access]").style.width = `${segment.access}%`;
+  document.querySelector("[data-score-risk]").style.width = `${segment.risk}%`;
+}
+
 function setLanguage(language) {
   activeLanguage = language;
   root.lang = language;
@@ -649,6 +893,7 @@ function setLanguage(language) {
     }
   });
   window.localStorage.setItem("siteLanguage", language);
+  renderMarketSegments();
   renderEconomics();
 }
 

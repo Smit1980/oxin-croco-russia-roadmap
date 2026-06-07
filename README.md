@@ -6,6 +6,7 @@ Static presentation website for discussing Oxin / Croco / Morello entry options 
 
 - RU/FA language switch.
 - Market entry options: representative, distributor, OEM/private label, marketplaces, wholesale, Morello, showroom, local office, JV.
+- Market intelligence section with opportunity matrix for footwear, OEM, leather goods, Morello, marketplaces, and retail.
 - 90-day roadmap and decision gates.
 - Marketplace strategy and Russian partner role.
 
