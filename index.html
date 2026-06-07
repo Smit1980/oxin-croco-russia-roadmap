@@ -19,6 +19,7 @@
       </a>
       <nav class="desktop-nav" aria-label="Main navigation">
         <a data-i18n="navOptions" href="#options">Варианты</a>
+        <a data-i18n="navEconomics" href="#economics">Экономика</a>
         <a data-i18n="navRoadmap" href="#roadmap">Карта</a>
         <a data-i18n="navMarketplaces" href="#marketplaces">Маркетплейсы</a>
         <a data-i18n="navRole" href="#role">Роль</a>
@@ -211,6 +212,105 @@
               надежного операционного партнера.
             </p>
           </article>
+        </div>
+      </section>
+
+      <section id="economics" class="economics panel">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="econEyebrow">Экономика</p>
+          <h2 data-i18n="econTitle">Финансовая модель по вариантам входа</h2>
+          <p class="section-copy" data-i18n="econIntro">
+            Прогноз ориентировочный: цифры нужны для первого разговора и выбора сценария,
+            а не для инвестиционного решения без прайса, ТН ВЭД, логистики и документов.
+          </p>
+        </div>
+
+        <div class="forecast-note reveal">
+          <strong data-i18n="econNoteTitle">Прогноз ориентировочный</strong>
+          <span data-i18n="econNoteCopy">
+            Диапазоны основаны на текущей рабочей аналитике проекта. Перед сделкой модель
+            нужно пересчитать по SKU, экспортным ценам, Incoterms, пошлинам, НДС, маркировке,
+            возвратам и условиям платежа.
+          </span>
+        </div>
+
+        <div class="economics-layout">
+          <aside class="econ-picker reveal">
+            <div class="picker-topline">
+              <h3 data-i18n="econPickerTitle">Выберите модель</h3>
+              <span data-i18n="econPickerHint">10 сценариев</span>
+            </div>
+            <div class="econ-scenarios" data-econ-scenarios></div>
+          </aside>
+
+          <article class="econ-detail reveal">
+            <div class="econ-detail-head">
+              <div>
+                <p class="eyebrow" data-econ-category>Scenario</p>
+                <h3 data-econ-title>Market-entry partner</h3>
+              </div>
+              <span class="risk-pill" data-econ-risk>Low risk</span>
+            </div>
+
+            <div class="scale-control" aria-label="Pilot scale">
+              <div class="scale-labels">
+                <span data-i18n="scaleCareful">Осторожно</span>
+                <span data-i18n="scaleBase">Базово</span>
+                <span data-i18n="scaleAggressive">Агрессивно</span>
+              </div>
+              <input type="range" min="1" max="3" step="1" value="2" data-econ-scale />
+            </div>
+
+            <div class="econ-metrics">
+              <div class="metric">
+                <span data-i18n="metricBudget">Бюджет входа</span>
+                <strong data-econ-budget>0</strong>
+              </div>
+              <div class="metric">
+                <span data-i18n="metricPipeline">Потенциальный оборот / сделки</span>
+                <strong data-econ-pipeline>0</strong>
+              </div>
+              <div class="metric">
+                <span data-i18n="metricMargin">Маржа / комиссия</span>
+                <strong data-econ-margin>0</strong>
+              </div>
+              <div class="metric">
+                <span data-i18n="metricTerm">Срок проверки</span>
+                <strong data-econ-term>0</strong>
+              </div>
+            </div>
+
+            <div class="econ-result">
+              <span data-i18n="econResultLabel">Оценочный коммерческий эффект</span>
+              <strong data-econ-result>0</strong>
+              <p data-econ-result-note>
+                Gross margin / fee minus entry budget, before tax and financing cost.
+              </p>
+            </div>
+
+            <div class="econ-text-grid">
+              <div>
+                <h4 data-i18n="econLogicTitle">Логика денег</h4>
+                <p data-econ-logic></p>
+              </div>
+              <div>
+                <h4 data-i18n="econGateTitle">Когда масштабировать</h4>
+                <p data-econ-gate></p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="econ-assumptions reveal">
+          <h3 data-i18n="econAssumptionsTitle">Что обязательно уточнить до финального расчета</h3>
+          <div class="assumption-grid">
+            <span data-i18n="econAssumptionOne">Экспортный прайс по SKU и MOQ</span>
+            <span data-i18n="econAssumptionTwo">Incoterms, логистика, страхование</span>
+            <span data-i18n="econAssumptionThree">ТН ВЭД, пошлина, НДС, происхождение</span>
+            <span data-i18n="econAssumptionFour">Маркировка, сертификация, русская этикетка</span>
+            <span data-i18n="econAssumptionFive">Возвраты, брак, уценка и реклама</span>
+            <span data-i18n="econAssumptionSix">Кто финансирует образцы, склад и пилот</span>
+          </div>
         </div>
       </section>
 

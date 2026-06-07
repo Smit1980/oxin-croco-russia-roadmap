@@ -1,6 +1,7 @@
 const translations = {
   ru: {
     navOptions: "Варианты",
+    navEconomics: "Экономика",
     navRoadmap: "Карта",
     navMarketplaces: "Маркетплейсы",
     navRole: "Роль",
@@ -67,6 +68,32 @@ const translations = {
     optionJvTitle: "Производство / JV",
     optionJvCopy:
       "Самый капиталоемкий сценарий: обсуждать только после рынка, экономики и надежного операционного партнера.",
+    econEyebrow: "Экономика",
+    econTitle: "Финансовая модель по вариантам входа",
+    econIntro:
+      "Прогноз ориентировочный: цифры нужны для первого разговора и выбора сценария, а не для инвестиционного решения без прайса, ТН ВЭД, логистики и документов.",
+    econNoteTitle: "Прогноз ориентировочный",
+    econNoteCopy:
+      "Диапазоны основаны на текущей рабочей аналитике проекта. Перед сделкой модель нужно пересчитать по SKU, экспортным ценам, Incoterms, пошлинам, НДС, маркировке, возвратам и условиям платежа.",
+    econPickerTitle: "Выберите модель",
+    econPickerHint: "10 сценариев",
+    scaleCareful: "Осторожно",
+    scaleBase: "Базово",
+    scaleAggressive: "Агрессивно",
+    metricBudget: "Бюджет входа",
+    metricPipeline: "Потенциальный оборот / сделки",
+    metricMargin: "Маржа / комиссия",
+    metricTerm: "Срок проверки",
+    econResultLabel: "Оценочный коммерческий эффект",
+    econLogicTitle: "Логика денег",
+    econGateTitle: "Когда масштабировать",
+    econAssumptionsTitle: "Что обязательно уточнить до финального расчета",
+    econAssumptionOne: "Экспортный прайс по SKU и MOQ",
+    econAssumptionTwo: "Incoterms, логистика, страхование",
+    econAssumptionThree: "ТН ВЭД, пошлина, НДС, происхождение",
+    econAssumptionFour: "Маркировка, сертификация, русская этикетка",
+    econAssumptionFive: "Возвраты, брак, уценка и реклама",
+    econAssumptionSix: "Кто финансирует образцы, склад и пилот",
     roadmapCaption: "Контрольные ворота: стратегия, коммерческий пакет, экономика, спрос, пилот.",
     roadmapEyebrow: "Дорожная карта",
     roadmapTitle: "90 дней до решения о следующем шаге",
@@ -136,6 +163,7 @@ const translations = {
   },
   fa: {
     navOptions: "گزینه‌ها",
+    navEconomics: "اقتصاد",
     navRoadmap: "نقشه راه",
     navMarketplaces: "مارکت‌پلیس‌ها",
     navRole: "نقش شریک",
@@ -202,6 +230,32 @@ const translations = {
     optionJvTitle: "تولید / مشارکت مشترک",
     optionJvCopy:
       "سرمایه‌برترین سناریو؛ فقط پس از شناخت بازار، اقتصاد پروژه و شریک عملیاتی قابل اتکا باید بررسی شود.",
+    econEyebrow: "اقتصاد",
+    econTitle: "مدل مالی برای گزینه‌های ورود",
+    econIntro:
+      "پیش‌بینی تقریبی است: اعداد برای جلسه اول و انتخاب سناریو هستند، نه تصمیم سرمایه‌گذاری بدون قیمت صادراتی، کد گمرکی، لجستیک و اسناد.",
+    econNoteTitle: "پیش‌بینی تقریبی",
+    econNoteCopy:
+      "بازه‌ها بر اساس تحلیل کاری فعلی پروژه هستند. قبل از معامله باید مدل بر اساس SKU، قیمت صادراتی، Incoterms، عوارض، VAT، لیبل‌گذاری، مرجوعی و شرایط پرداخت دوباره محاسبه شود.",
+    econPickerTitle: "انتخاب مدل",
+    econPickerHint: "۱۰ سناریو",
+    scaleCareful: "محتاطانه",
+    scaleBase: "پایه",
+    scaleAggressive: "تهاجمی",
+    metricBudget: "بودجه ورود",
+    metricPipeline: "گردش مالی / معاملات بالقوه",
+    metricMargin: "مارجین / کمیسیون",
+    metricTerm: "دوره بررسی",
+    econResultLabel: "اثر تجاری تخمینی",
+    econLogicTitle: "منطق مالی",
+    econGateTitle: "زمان مقیاس‌پذیری",
+    econAssumptionsTitle: "مواردی که قبل از محاسبه نهایی باید روشن شود",
+    econAssumptionOne: "قیمت صادراتی بر اساس SKU و MOQ",
+    econAssumptionTwo: "Incoterms، لجستیک و بیمه",
+    econAssumptionThree: "کد گمرکی، عوارض، VAT و مبدأ کالا",
+    econAssumptionFour: "لیبل‌گذاری، گواهی و برچسب روسی",
+    econAssumptionFive: "مرجوعی، عیب، تخفیف موجودی و تبلیغات",
+    econAssumptionSix: "تأمین مالی نمونه‌ها، انبار و پایلوت",
     roadmapCaption: "دروازه‌های کنترل: استراتژی، بسته تجاری، اقتصاد، تقاضا، پایلوت.",
     roadmapEyebrow: "نقشه راه",
     roadmapTitle: "۹۰ روز تا تصمیم درباره گام بعدی",
@@ -271,10 +325,317 @@ const translations = {
   },
 };
 
+const economicScenarios = [
+  {
+    id: "market-entry",
+    category: { ru: "Первый этап", fa: "مرحله اول" },
+    title: { ru: "Market-entry partner", fa: "شریک ورود به بازار" },
+    subtitle: { ru: "Стратегия, контакты, пилот", fa: "استراتژی، ارتباطات، پایلوت" },
+    risk: { ru: "Низкий риск", fa: "ریسک پایین" },
+    term: { ru: "60-90 дней", fa: "۶۰ تا ۹۰ روز" },
+    minBudget: 0.8,
+    maxBudget: 2.5,
+    minPipeline: 3,
+    maxPipeline: 12,
+    marginMin: 5,
+    marginMax: 10,
+    logic: {
+      ru: "Финансируется работа по рынку: упаковка предложения, B2B-разведка, переговоры и подготовка первых сделок. Прямой эффект возникает через success fee или будущие контракты.",
+      fa: "بودجه صرف آماده‌سازی بازار، بسته تجاری، بررسی B2B، مذاکرات و آماده‌سازی معاملات اول می‌شود. اثر مستقیم از success fee یا قراردادهای بعدی شکل می‌گیرد.",
+    },
+    gate: {
+      ru: "Масштабировать только если есть запросы на образцы, LOI, понятная экономика и мандат без обязательной закупки.",
+      fa: "فقط زمانی مقیاس دهید که درخواست نمونه، LOI، اقتصاد روشن و مندیت بدون تعهد خرید وجود داشته باشد.",
+    },
+  },
+  {
+    id: "distributor",
+    category: { ru: "Товарный сценарий", fa: "سناریوی کالایی" },
+    title: { ru: "Эксклюзивный дистрибьютор", fa: "توزیع‌کننده انحصاری" },
+    subtitle: { ru: "Импорт, склад, продажи", fa: "واردات، انبار، فروش" },
+    risk: { ru: "Высокий риск", fa: "ریسک بالا" },
+    term: { ru: "4-9 месяцев", fa: "۴ تا ۹ ماه" },
+    minBudget: 4,
+    maxBudget: 10,
+    minPipeline: 7,
+    maxPipeline: 22,
+    marginMin: 25,
+    marginMax: 40,
+    logic: {
+      ru: "Дистрибьютор зарабатывает на разнице между landed cost и оптовой/розничной ценой, но несет риск партии, склада, валюты, возвратов и неликвида.",
+      fa: "توزیع‌کننده از اختلاف landed cost و قیمت عمده/خرده سود می‌برد، اما ریسک محموله، انبار، ارز، مرجوعی و موجودی راکد را می‌پذیرد.",
+    },
+    gate: {
+      ru: "Переходить после B2B-подтверждения спроса, прайса, документов, ТН ВЭД и тестовой партии с контролируемыми возвратами.",
+      fa: "پس از تأیید تقاضای B2B، قیمت، اسناد، کد گمرکی و محموله تست با مرجوعی کنترل‌شده وارد این مدل شوید.",
+    },
+  },
+  {
+    id: "oem",
+    category: { ru: "Производственный сценарий", fa: "سناریوی تولید" },
+    title: { ru: "OEM / Private Label", fa: "OEM / برند خصوصی" },
+    subtitle: { ru: "Производство для российских брендов", fa: "تولید برای برندهای روسی" },
+    risk: { ru: "Средний риск", fa: "ریسک متوسط" },
+    term: { ru: "2-6 месяцев", fa: "۲ تا ۶ ماه" },
+    minBudget: 0.6,
+    maxBudget: 2,
+    minPipeline: 5,
+    maxPipeline: 20,
+    marginMin: 3,
+    marginMax: 12,
+    logic: {
+      ru: "Брендовый риск ниже: российский клиент покупает производственную возможность. Доход российского партнера обычно строится как комиссия или доля маржи B2B-заказа.",
+      fa: "ریسک برند کمتر است: مشتری روسی ظرفیت تولید را می‌خرد. درآمد شریک روسی معمولاً کمیسیون یا سهمی از مارجین سفارش B2B است.",
+    },
+    gate: {
+      ru: "Нужны образцы, MOQ, сроки, контроль качества, кастомизация, упаковка и доказуемая производственная дисциплина.",
+      fa: "نمونه، MOQ، زمان تولید، کنترل کیفیت، سفارشی‌سازی، بسته‌بندی و انضباط تولید قابل اثبات لازم است.",
+    },
+  },
+  {
+    id: "marketplace",
+    category: { ru: "Digital test", fa: "تست دیجیتال" },
+    title: { ru: "Маркетплейс-тест", fa: "تست مارکت‌پلیس" },
+    subtitle: { ru: "10-20 SKU, FBS / партнер", fa: "۱۰ تا ۲۰ SKU، FBS / شریک" },
+    risk: { ru: "Средний риск", fa: "ریسک متوسط" },
+    term: { ru: "2-4 месяца", fa: "۲ تا ۴ ماه" },
+    minBudget: 1.5,
+    maxBudget: 5,
+    minPipeline: 2,
+    maxPipeline: 10,
+    marginMin: 8,
+    marginMax: 18,
+    logic: {
+      ru: "Маркетплейс проверяет спрос, карточки, цену и размеры. В экономику сразу входят комиссия, логистика, хранение, возвраты, реклама и уценка.",
+      fa: "مارکت‌پلیس تقاضا، کارت محصول، قیمت و سایزبندی را می‌سنجد. کمیسیون، لجستیک، انبارداری، مرجوعی، تبلیغات و تخفیف باید از ابتدا در مدل باشد.",
+    },
+    gate: {
+      ru: "Начинать через опытного продавца или FBS. FBO/FBY использовать только для SKU с подтвержденным спросом.",
+      fa: "شروع از طریق فروشنده باتجربه یا FBS. FBO/FBY فقط برای SKU با تقاضای اثبات‌شده.",
+    },
+  },
+  {
+    id: "wholesale",
+    category: { ru: "B2B sales", fa: "فروش B2B" },
+    title: { ru: "Оптовые продажи бренда", fa: "فروش عمده برند" },
+    subtitle: { ru: "Сети, мультибренды, ритейл", fa: "شبکه‌ها، مولتی‌برند، خرده‌فروشی" },
+    risk: { ru: "Средний риск", fa: "ریسک متوسط" },
+    term: { ru: "3-6 месяцев", fa: "۳ تا ۶ ماه" },
+    minBudget: 1.2,
+    maxBudget: 4,
+    minPipeline: 4,
+    maxPipeline: 14,
+    marginMin: 20,
+    marginMax: 32,
+    logic: {
+      ru: "Канал требует прайса, документов, размерной сетки и маркетинговой поддержки. Деньги появляются через оптовую маржу или агентскую комиссию по контрактам.",
+      fa: "این کانال به قیمت، اسناد، جدول سایز و حمایت بازاریابی نیاز دارد. درآمد از مارجین عمده یا کمیسیون قراردادها ایجاد می‌شود.",
+    },
+    gate: {
+      ru: "Масштабировать после 5-10 предметных переговоров и подтверждения, что цена и ассортимент подходят российским байерам.",
+      fa: "پس از ۵ تا ۱۰ مذاکره واقعی و تأیید قیمت و ассортимент برای خریداران روسی، مقیاس دهید.",
+    },
+  },
+  {
+    id: "morello",
+    category: { ru: "Leather care", fa: "مراقبت از چرم" },
+    title: { ru: "Morello как отдельный канал", fa: "Morello به عنوان کانال جدا" },
+    subtitle: { ru: "Допродажа и специализированные точки", fa: "فروش مکمل و نقاط تخصصی" },
+    risk: { ru: "Средний риск", fa: "ریسک متوسط" },
+    term: { ru: "2-5 месяцев", fa: "۲ تا ۵ ماه" },
+    minBudget: 0.8,
+    maxBudget: 3,
+    minPipeline: 1.5,
+    maxPipeline: 6,
+    marginMin: 20,
+    marginMax: 35,
+    logic: {
+      ru: "Средства ухода могут давать хорошую допродажу, но требуют отдельной проверки состава, упаковки, опасных грузов и конкурентного позиционирования.",
+      fa: "محصولات مراقبت می‌توانند فروش مکمل خوبی بدهند، اما ترکیب، بسته‌بندی، حمل کالاهای خطرناک و جایگاه رقابتی باید جداگانه بررسی شود.",
+    },
+    gate: {
+      ru: "Тестировать через обувные магазины, ремонт обуви, химчистки и маркетплейсы после проверки состава и документов.",
+      fa: "پس از بررسی ترکیب و اسناد، از طریق فروشگاه کفش، تعمیر کفش، خشکشویی و مارکت‌پلیس تست شود.",
+    },
+  },
+  {
+    id: "corporate",
+    category: { ru: "Corporate B2B", fa: "B2B سازمانی" },
+    title: { ru: "Корпоративные заказы", fa: "سفارش‌های سازمانی" },
+    subtitle: { ru: "Кожгалантерея и подарки", fa: "کالاهای چرمی و هدایا" },
+    risk: { ru: "Низкий / средний", fa: "پایین / متوسط" },
+    term: { ru: "1-4 месяца", fa: "۱ تا ۴ ماه" },
+    minBudget: 0.5,
+    maxBudget: 2,
+    minPipeline: 2,
+    maxPipeline: 8,
+    marginMin: 15,
+    marginMax: 30,
+    logic: {
+      ru: "Можно работать под предзаказ и снизить складской риск. Подходят ремни, кошельки, сумки, наборы и брендированные подарки.",
+      fa: "می‌توان با پیش‌سفارش کار کرد و ریسک انبار را کاهش داد. کمربند، کیف پول، کیف و ست‌های هدیه مناسب هستند.",
+    },
+    gate: {
+      ru: "Масштабировать при наличии корпоративных LOI, понятных сроков кастомизации и качества образцов.",
+      fa: "در صورت وجود LOI سازمانی، زمان سفارشی‌سازی روشن و کیفیت نمونه‌ها، مقیاس دهید.",
+    },
+  },
+  {
+    id: "showroom",
+    category: { ru: "Presence test", fa: "تست حضور" },
+    title: { ru: "Шоурум / pop-up", fa: "شوروم / پاپ‌آپ" },
+    subtitle: { ru: "Образцы для байеров", fa: "نمونه برای خریداران" },
+    risk: { ru: "Средний риск", fa: "ریسک متوسط" },
+    term: { ru: "1-3 месяца", fa: "۱ تا ۳ ماه" },
+    minBudget: 1.2,
+    maxBudget: 4,
+    minPipeline: 3,
+    maxPipeline: 12,
+    marginMin: 10,
+    marginMax: 20,
+    logic: {
+      ru: "Шоурум не является продажной моделью сам по себе. Он конвертирует образцы в встречи, отзывы, LOI и пилотные заказы.",
+      fa: "شوروم به‌تنهایی مدل فروش نیست؛ نمونه‌ها را به جلسات، بازخورد، LOI و سفارش‌های پایلوت تبدیل می‌کند.",
+    },
+    gate: {
+      ru: "Оправдан, если заранее назначены встречи с байерами и есть коммерческий пакет, а не просто показ коллекции.",
+      fa: "زمانی توجیه دارد که جلسات با خریداران از قبل تنظیم شده و بسته تجاری آماده باشد، نه صرفاً نمایش کالکشن.",
+    },
+  },
+  {
+    id: "office",
+    category: { ru: "Long-term presence", fa: "حضور بلندمدت" },
+    title: { ru: "Локальное представительство", fa: "نمایندگی محلی" },
+    subtitle: { ru: "Команда и постоянная координация", fa: "تیم و هماهنگی دائمی" },
+    risk: { ru: "Средний / высокий", fa: "متوسط / بالا" },
+    term: { ru: "6-12 месяцев", fa: "۶ تا ۱۲ ماه" },
+    minBudget: 3.6,
+    maxBudget: 9,
+    minPipeline: 10,
+    maxPipeline: 35,
+    marginMin: 3,
+    marginMax: 7,
+    logic: {
+      ru: "Представительство имеет смысл после пилота: оно оплачивает локальную координацию, партнеров, контроль сделок, аналитику и развитие каналов.",
+      fa: "نمایندگی پس از پایلوت معنا دارد: هماهنگی محلی، شرکا، کنترل معاملات، تحلیل و توسعه کانال‌ها را پوشش می‌دهد.",
+    },
+    gate: {
+      ru: "Открывать только если есть подтвержденные каналы, регулярные переговоры и понятная годовая цель по обороту.",
+      fa: "فقط در صورت وجود کانال‌های تأییدشده، مذاکرات منظم و هدف سالانه روشن برای گردش مالی.",
+    },
+  },
+  {
+    id: "jv",
+    category: { ru: "Capital project", fa: "پروژه سرمایه‌ای" },
+    title: { ru: "Локальное производство / JV", fa: "تولید محلی / JV" },
+    subtitle: { ru: "Долгосрочная ставка", fa: "شرط بلندمدت" },
+    risk: { ru: "Очень высокий", fa: "بسیار بالا" },
+    term: { ru: "12-24 месяца", fa: "۱۲ تا ۲۴ ماه" },
+    minBudget: 25,
+    maxBudget: 100,
+    minPipeline: 40,
+    maxPipeline: 180,
+    marginMin: 18,
+    marginMax: 30,
+    logic: {
+      ru: "Это инвестиционный проект, а не первый шаг. Потенциал выше, но нужны юристы, площадка, оборудование, команда, банковская и санкционная проверка.",
+      fa: "این پروژه سرمایه‌گذاری است، نه گام اول. پتانسیل بالاتر است، اما حقوقی، محل تولید، تجهیزات، تیم و بررسی بانکی/تحریمی لازم دارد.",
+    },
+    gate: {
+      ru: "Рассматривать только после доказанного спроса, стабильной поставки, партнера-оператора и инвестиционного due diligence.",
+      fa: "فقط پس از اثبات تقاضا، تأمین پایدار، شریک عملیاتی و due diligence سرمایه‌گذاری بررسی شود.",
+    },
+  },
+];
+
 const root = document.documentElement;
 const toggle = document.querySelector("[data-lang-toggle]");
 const storedLanguage = window.localStorage.getItem("siteLanguage");
 let activeLanguage = storedLanguage === "fa" ? "fa" : "ru";
+let activeScenarioId = "market-entry";
+
+function interpolate(min, max, scale) {
+  if (scale === 1) return min;
+  if (scale === 3) return max;
+  return (min + max) / 2;
+}
+
+function formatMillion(value, language = activeLanguage) {
+  const rounded = value >= 10 ? Math.round(value) : Math.round(value * 10) / 10;
+  const text = new Intl.NumberFormat(language === "fa" ? "fa-IR" : "ru-RU", {
+    maximumFractionDigits: 1,
+  }).format(rounded);
+  return language === "fa" ? `${text} میلیون ₽` : `${text} млн ₽`;
+}
+
+function formatPercent(min, max, language = activeLanguage) {
+  const nf = new Intl.NumberFormat(language === "fa" ? "fa-IR" : "ru-RU", {
+    maximumFractionDigits: 0,
+  });
+  return `${nf.format(min)}-${nf.format(max)}%`;
+}
+
+function formatEffect(value, language = activeLanguage) {
+  const sign = value > 0 ? "+" : value < 0 ? "−" : "";
+  return `${sign}${formatMillion(Math.abs(value), language)}`;
+}
+
+function renderEconomics() {
+  const list = document.querySelector("[data-econ-scenarios]");
+  const scaleInput = document.querySelector("[data-econ-scale]");
+  if (!list || !scaleInput) return;
+
+  const language = activeLanguage;
+  const scale = Number(scaleInput.value);
+  const scenario = economicScenarios.find((item) => item.id === activeScenarioId) || economicScenarios[0];
+
+  list.innerHTML = economicScenarios
+    .map((item, index) => {
+      const activeClass = item.id === scenario.id ? " active" : "";
+      const number = String(index + 1).padStart(2, "0");
+      return `
+        <button class="scenario-button${activeClass}" type="button" data-scenario-id="${item.id}">
+          <span>${number}</span>
+          <div>
+            <strong>${item.title[language]}</strong>
+            <small>${item.subtitle[language]}</small>
+          </div>
+        </button>
+      `;
+    })
+    .join("");
+
+  list.querySelectorAll("[data-scenario-id]").forEach((button) => {
+    button.addEventListener("click", () => {
+      activeScenarioId = button.dataset.scenarioId;
+      renderEconomics();
+    });
+  });
+
+  const budget = interpolate(scenario.minBudget, scenario.maxBudget, scale);
+  const pipeline = interpolate(scenario.minPipeline, scenario.maxPipeline, scale);
+  const marginMid = (scenario.marginMin + scenario.marginMax) / 2 / 100;
+  const effect = pipeline * marginMid - budget;
+
+  document.querySelector("[data-econ-category]").textContent = scenario.category[language];
+  document.querySelector("[data-econ-title]").textContent = scenario.title[language];
+  document.querySelector("[data-econ-risk]").textContent = scenario.risk[language];
+  document.querySelector("[data-econ-budget]").textContent = formatMillion(budget, language);
+  document.querySelector("[data-econ-pipeline]").textContent = formatMillion(pipeline, language);
+  document.querySelector("[data-econ-margin]").textContent = formatPercent(
+    scenario.marginMin,
+    scenario.marginMax,
+    language
+  );
+  document.querySelector("[data-econ-term]").textContent = scenario.term[language];
+  document.querySelector("[data-econ-result]").textContent = formatEffect(effect, language);
+  document.querySelector("[data-econ-result-note]").textContent =
+    language === "fa"
+      ? "مارجین ناخالص / کمیسیون منهای بودجه ورود؛ بدون مالیات، هزینه تأمین مالی و شکاف نقدینگی."
+      : "Валовая прибыль / комиссия минус бюджет входа; без налогов, стоимости финансирования и кассовых разрывов.";
+  document.querySelector("[data-econ-logic]").textContent = scenario.logic[language];
+  document.querySelector("[data-econ-gate]").textContent = scenario.gate[language];
+}
 
 function setLanguage(language) {
   activeLanguage = language;
@@ -288,6 +649,7 @@ function setLanguage(language) {
     }
   });
   window.localStorage.setItem("siteLanguage", language);
+  renderEconomics();
 }
 
 toggle.addEventListener("click", () => {
@@ -306,5 +668,7 @@ const observer = new IntersectionObserver(
 );
 
 document.querySelectorAll(".reveal").forEach((node) => observer.observe(node));
+
+document.querySelector("[data-econ-scale]")?.addEventListener("input", renderEconomics);
 
 setLanguage(activeLanguage);
